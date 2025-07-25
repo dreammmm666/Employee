@@ -31,7 +31,7 @@ function AddEmployeeWithImage() {
     ธุรการบัญชีและลูกค้าสัมพันธ์: ['หัวหน้าธุรการ', 'บัญชี','ลูกค้าสัมพันธ์','เจ้าหน้าที่ทั่วไป' ],
     บริหาร: ['ผู้จัดการทั่วไป', 'ประธานบริษัท']
   };
-
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     if (name === 'birth_date') {
